@@ -3,7 +3,7 @@
 //stampa un messaggio appropriato sull’esito del controllo.
 //Non è necessario provvedere alla validazione delle email.
 
-//Genero email da una lista di nomi
+//Genero email da una lista di email
  function generateEmails(names, domain) {
      let emails = [];
      for (let i = 0; i < names.length; i++) {
@@ -19,12 +19,12 @@ let emailList = generateEmails(names, domain);
 console.log("Questa è un' email list generata")
 console.log(emailList.toString());
 
-// Lista di email
-// const listaEmail = [
-//     'esempio1@esempio.com',
-//     'esempio2@esempio.com',
-//     'esempio3@esempio.com'
-//   ];
+//Lista di email
+const listaEmail = [
+    'esempio1@esempio.com',
+    'esempio2@esempio.com',
+    'esempio3@esempio.com'
+  ];
   
   // Singola email da controllare
   const emailDaControllare = prompt("Iserisci la tua email")
